@@ -18,6 +18,10 @@ html {
     margin: 0 auto;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /**************************
             HERO
 ***************************/
@@ -99,9 +103,12 @@ nav a {
 }
 
 .hero img {
+    /*
     width: 80%;
     height: 10rem;
+    */
     border: black solid 1px;
+    object-fit: cover;
 }
 
 /**************************
@@ -136,6 +143,16 @@ nav a {
     border: #3882F6 solid 1px;
     border-radius: 1rem;
     margin: 1rem;
+}
+
+.info_item .img1 {
+    object-fit: cover;
+    object-position: calc((100%/6) * 1) 0;
+}
+
+.info_item .img2 {
+    object-fit: cover;
+    object-position: 0 0;
 }
 
 .info_img_subtext {
@@ -270,7 +287,6 @@ footer {
     }
     
     .hero img {
-        flex: 0 0 50%;
         height: 15rem;
         border: black solid 1px;
     }
