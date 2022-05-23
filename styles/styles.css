@@ -51,7 +51,10 @@ header.hero {
 
 h1 {
     margin: 0 auto;
-    text-align: center;
+}
+
+h1 img {
+    height: 3rem;
 }
 
 nav ul{
@@ -102,13 +105,15 @@ nav a {
     padding: 1rem;
 }
 
-.hero img {
+.hero_main img {
     /*
     width: 80%;
     height: 10rem;
     */
-    border: black solid 1px;
+    border: #3882F6 solid 1px;
     object-fit: cover;
+    border-radius: 1rem;
+    height: 13rem;
 }
 
 /**************************
@@ -118,7 +123,7 @@ nav a {
 .info {
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
+    align-items: flex-start;
     justify-content: space-evenly;
     margin: 2rem auto;
 }
@@ -229,12 +234,17 @@ footer {
 
     header div {
         display: flex;
-        align-items: baseline;
+        align-items: flex-end;
         justify-content: space-between;
     }
 
     h1 {
         margin: 0;
+    }
+
+    h1 img {
+        height: 2.8rem;
+        
     }
 
     nav ul{
@@ -286,9 +296,8 @@ footer {
         padding: 0.5rem 1.5rem;
     }
     
-    .hero img {
+    .hero_main img {
         height: 15rem;
-        border: black solid 1px;
     }
 
     /**************************
