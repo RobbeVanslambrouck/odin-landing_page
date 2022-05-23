@@ -316,8 +316,8 @@ footer {
     }
 
     .info_item img {
-        width: 14rem;
-        height: 14rem;
+        width: 12rem;
+        height: 12rem;
         border: #3882F6 solid 2px;
         border-radius: 1rem;
         margin: 0.5rem 2rem;
@@ -343,7 +343,7 @@ footer {
 
     .quote div figure {
         margin: 0 auto;
-        max-width: calc(18*4rem);
+        max-width: calc(16*4rem);
     }
 
     .quote blockquote {
